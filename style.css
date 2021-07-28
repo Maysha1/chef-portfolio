@@ -1,0 +1,183 @@
+body{
+    margin: 0px 50px 10px 50px;
+    font-family: "Trirong", serif;
+    border-right: 5px solid orangered;
+    border-left: 5px solid orangered;
+    box-shadow: 5px 7px 40px gray;
+}
+
+.header{
+    display: flex;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.img-header img{
+    height: 430px;
+    width: 450px;
+}
+
+
+.text-header{
+    margin: 40px 0px 0px 30px ;
+    padding: 20px 0px 0px 50px;
+    font-size: 20px;
+    width: 50%;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+}
+
+span{
+    color: orangered;
+}
+
+.img-header{
+    margin-left:20px ;
+    padding-left: 20px;
+    width: 50%;
+}
+
+.anchor-clr{
+    text-decoration: none;
+    background: linear-gradient(orangered, tomato);
+    color: rgb(34, 33, 33);
+    font-weight: 500;
+    padding: 6px;
+    border-radius: 15px;
+}
+
+.about-me{
+  background-image: url("images/7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  
+}
+
+.about-image img {
+    height: 300px;
+    width: 280px;
+    
+}
+
+.about-text{
+    width: 55%;
+    padding: 20px 15px 0px 0px;
+}
+
+.about-image{
+    width: 45%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.recipie-section{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.text-recipie{
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px 250px 50px 250px;
+}
+
+.recipie{
+    display: flex;
+    margin: 20px;
+}
+
+
+.food{
+    width: 30%;
+    height: 500px;
+    margin: 40px;
+    padding: 10px 10px 20px 10px;
+    border: 2px  rgb(26, 19, 19);
+    border-radius: 10px;
+    box-shadow: 5px 7px 40px gray;
+}
+
+.img-recipie{
+    height: 55%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.link-recipie{
+    text-decoration: none;
+    color: orangered;
+    font-weight: 700;
+}
+
+
+.healthy-img{
+    border-radius: 50%;
+    width: 30%;
+    height: 40%;
+    text-align: center;
+    margin: 30px 30px 30px 40px;
+    padding: 30px;
+    
+}
+
+.healthy-text{
+    width: 50%;
+    margin: 20px;
+    padding: 60px;
+}
+
+
+.text-blog{
+    text-align: center;
+    margin: 80px 10px 10px 10px;
+    font-size: larger;
+}
+
+.portion1 {
+    display: flex;
+    padding: 0px 150px 20px 150px;
+    text-align: center;
+
+}
+
+
+.img-blog{
+    height: 450px;
+    width: 450px;
+    margin: 30px;
+    border: 20px solid rgb(255, 255, 255);
+    box-shadow: 5px 7px 40px gray;
+    
+    
+}
+
+.bl-1{
+    width: 40%;
+}
+
+.site{
+    text-align: center;
+    display: flex;
+    margin: 60px 130px 50px 130px;
+    border-radius: 20px;
+    box-shadow: 2px 20px 30px gray;
+}
+
+.youtube{
+    margin: 20px;
+    width: 33%;
+}
+
+footer{
+    margin:80px 0px 0px 0px;
+    padding: 30px 0px 30px 30px;
+    background-color: black;
+    text-align: center;
+    color: rgb(238, 237, 237);
+}
+
+footer h2{
+    color: rgba(250, 235, 215, 0.562);
+}
